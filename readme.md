@@ -3,4 +3,4 @@
 Welcome to my waifu shrine.
 
 # TODO list
-.Fix navbar
+*Fix navbar

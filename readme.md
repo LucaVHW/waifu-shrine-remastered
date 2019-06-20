@@ -2,5 +2,4 @@
 
 Welcome to my waifu shrine.
 
-# TODO list
-* Fix navbar
+You can find the previous version [here](https://github.com/LucaVHW/waifu-shrine)

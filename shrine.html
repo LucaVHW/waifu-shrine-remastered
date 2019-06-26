@@ -9,6 +9,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
+  <style media="screen">
+    html {
+      background-color: rgb(54,54,54);
+    }
+  </style>
   <body>
 
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
@@ -35,7 +40,7 @@
         <div class="column is-12">
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card1" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a1.jpg" alt="Placeholder image">
@@ -58,11 +63,27 @@
                 Sword Art Online
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card1','card01')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card01" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a1.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Yuuki was a kind of person who is willing to live her life to the fullest even in her critical condition, when she died peacefully in happiness. She believed some things must be done in forceful means for the other party to understand.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card01','card1')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card2" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a2.jpg" alt="Placeholder image">
@@ -85,11 +106,27 @@
                 Fairy Tail
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card2','card02')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card02" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a2.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Mavis is kind and protective of Fairy Tail. She cares, guides and protects the guild whenever it's possible. She seems to be quite cheerful as she's smiling and happy most of the time. Mavis can also be quite carefree and reckless.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card02','card2')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card3" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a3.jpg" alt="Placeholder image">
@@ -112,11 +149,27 @@
                 Tokyo Ghoul
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card3','card03')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card03" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a3.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Eto has a sadistic personality, often expressing joy at the expense of others' suffering. Her twisted personality is possibly the result of fighting to stay alive during her early years in the 24th ward. As a result, she has no qualms about remorselessly slaughtering humans and ghouls alike, and shows happiness when inflicting pain on others.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card03','card3')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card4" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a4.jpg" alt="Placeholder image">
@@ -139,11 +192,27 @@
                 Overlord
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card4','card04')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card04" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a4.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Lupusregina Beta has a very bright and outgoing personality but is able to act accordingly like a perfect lady. She is sociable and friendly towards humans though it is only a mask to conceal her brutal and cunning personality. She also enjoys making lewd jokes to people like Enri.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card04','card4')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card5" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a5.jpg" alt="Placeholder image">
@@ -166,11 +235,27 @@
                 Steins;Gate
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card5','card05')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card05" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a5.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Throughout the series, Kurisu shows a sensible and mature attitude, usually calm and collected even when someone is acting tense in front of her. However, she can also show a much more timid side at times. She has been described as a tsundere by Rintarou Okabe and Itaru Hashida, though she is shown to be annoyed whenever someone calls her that.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card05','card5')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card6" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a6.jpg" alt="Placeholder image">
@@ -193,11 +278,27 @@
                 Overlord
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card6','card06')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card06" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a6.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Like many others in Nazarick, Narberal views humans as nothing more than low-class creatures. The only human exempt from Narberal's contempt is her sister Aureole Omega. Though she dislikes the thought of killing humans, she will not hesitate to do so if there is no reason to let them live, or unless given an order by Ainz.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card06','card6')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card7" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a7.jpg" alt="Placeholder image">
@@ -220,11 +321,27 @@
                 Angel Beats
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card7','card07')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card07" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a7.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Yui is extremely bright, cheerful, crazy and even a bit wild. She is known to be hyperactive and talks extremely fast. Even within the members of the SSS, she comes off as very excited and loud. She is often flirtatious with others, and takes advantage of every opportunity she can. She usually tells the other SSS members that they're "morons", mostly because under the surface she is actually quite intelligent.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card07','card7')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card8" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a8.jpg" alt="Placeholder image">
@@ -247,11 +364,27 @@
                 Angel Beats
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card8','card08')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card08" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a8.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Kanade does not appear to be any less foolish than a typical human being in physical form, but this is contrasted by her lack of detectable emotion, even in skirmishes with the SSS which usually end up with her being injured. It is difficult to understand what she is thinking due to her rarely showing any outward emotion.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card08','card8')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card9" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a9.jpg" alt="Placeholder image">
@@ -274,11 +407,27 @@
                 Sword Art Online
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card9','card09')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card09" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a9.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Asuna originally did not care about dying in the game before meeting Kirito. That meeting drastically changed Asuna's personality and outlook on life. She soon takes most things Kirito says to heart and looks to him for help, using him as somewhat of a lifeline. Asuna is a kind and helpful young woman who, similarly to Kirito, cannot abandon another in trouble.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card09','card9')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card10" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a10.jpg" alt="Placeholder image">
@@ -301,11 +450,27 @@
                 Sword Art Online
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card10','card010')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card010" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a10.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Calm and cool are two words that best describe Sinon's personality. In battle and most of the time in the game, she keeps a cool head, which earns her respect from her friends. However, Sinon has a violent temper once angered, best seen with her interactions with Kirito. It is actually said that Kirito is the first one to make her extremely angry.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card010','card10')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card11" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a11.jpg" alt="Placeholder image">
@@ -328,11 +493,27 @@
                 Log Horizon
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card11','card011')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card011" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a11.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Due to her short stature and youthful appearance, Akatsuki is easily mistaken for being much younger than she really is. In the real world, this made socializing with people her age very difficult, to the point that she had never once been on a date or even had a close friend.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card011','card11')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card12" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a12.jpg" alt="Placeholder image">
@@ -355,11 +536,27 @@
                 Overlord
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card12','card012')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card012" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a12.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Extremely loyal and in love, Albedo is infatuated with Ainz as programmed by him, often showing obsessive tendencies when it comes to his affairs. She is always vying for Ainz's affection, showcasing outbursts of jealousy whenever anyone else appears to be getting close to him.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card012','card12')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card13" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a13.jpg" alt="Placeholder image">
@@ -382,11 +579,27 @@
                 Fairy Tail
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card13','card013')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card013" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a13.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Erza is a very strict person, often criticizing the bad behavior and habits of the other guild members, causing most of them to apologize, fearing that they might invoke her wrath. She is also very impatient, disliking people who don't answer her questions quickly enough. This, coupled with her own tragic childhood, caused many of her guildmates to avoid her due to her social awkwardness.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card013','card13')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card14" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a14.jpg" alt="Placeholder image">
@@ -409,11 +622,27 @@
                 Konosuba
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card14','card014')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card014" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a14.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Aqua has an interesting yet troublesome personality. She is high-spirited, cheerful, and carefree, but rarely thinks about the consequences of her actions. While she doesn't force her beliefs onto others, Aqua always acts or speaks on her whims; so, she can behave very inappropriately in many situations. It is also very easy to taunt Aqua with jeers or lure her with praises.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card014','card14')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card15" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a15.jpg" alt="Placeholder image">
@@ -436,11 +665,27 @@
                 Goblin Slayer
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card15','card015')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card015" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a15.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Despite her great age, High Elf Archer is still quite innocent to the darker aspects of the world and has her own ideas about what an adventure involves. Her first quest with Goblin Slayer has her witness the brutal and severely-overlooked cruelty of goblins for the first time, followed by joylessly killing the perpetrators up close. Still, by the end of that affair, High Elf Archer promised herself to take Goblin Slayer on an adventure suited to her own standards.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card015','card15')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card16" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a16.jpg" alt="Placeholder image">
@@ -463,11 +708,27 @@
                 No Game No Life
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card16','card016')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card016" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a16.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                She seems to be soft spoken and polite, but she can also be incredibly condescending to other races of the Exceed below her own. She has a great love for knowledge and gets easily excited at the prospect of gaining new knowledge, such as when she drooled over Sora's tablet after seeing the vast information it contained. Despite her initial arrogance, she has a high sense of honor while playing games, as she doesn't like cheating, or being cheated.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card016','card16')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card17" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a17.jpg" alt="Placeholder image">
@@ -490,11 +751,27 @@
                 Fairy Tail
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card17','card017')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card017" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a17.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Lucy takes exceptional pride in her appearance and is very confident in her sex appeal, often exuding a certain amount of vanity. Despite this superficial attitude, she is a clever, kind, and genuinely caring person. Lucy is passionate for literature and is in the process of writing her own novel about her adventures with Fairy Tail although she does not like telling anyone about it.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card017','card17')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card18" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a18.jpg" alt="Placeholder image">
@@ -517,11 +794,27 @@
                 Fairy Tail
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card18','card018')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card018" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a18.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Mirajane is a loving and caring person who treats her friends with kindness. Mirajane plays a motherly role within the guild, and is often seen running the bar at the guild hall. She has rarely been shown to be in a bad mood, and can tolerate all of the guild's eccentricities.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card018','card18')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card19" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a19.jpg" alt="Placeholder image">
@@ -544,11 +837,27 @@
                 Overlord
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card19','card019')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card019" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a19.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Shalltear has a very flirtatious personality and is open with her sexual preferences, often to her peers' discomfort including her master Ainz. So far, she has displayed a preference for necrophilia, sadomasochism, and bi-sexuality. For that reason, Shalltear tends to make sexual advances towards undead like Yuri Alpha who tries to avoid her as best as she could.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card019','card19')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card20" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a20.jpg" alt="Placeholder image">
@@ -571,11 +880,27 @@
                 Gabriel Dropout
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card20','card020')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card020" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a20.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Satania's personality may come from her family who are successful bakery owners, prideful and think of themselves as nobility who are higher than the common folks (with the exception of her brother, who is surprisingly far more rational and realistic). Satania herself is also full of pride, typical for a demon.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card020','card20')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card21" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a21.jpg" alt="Placeholder image">
@@ -598,11 +923,27 @@
                 Mirai Nikki
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card21','card021')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card021" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a21.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Yuno's personality is ambiguous. For the most part she is sweet, feminine, and sometimes shy when around Yukiteru. But, this masks her dark and sanguinary side—ruthless, cold and calculating. She has little, if any, problem with using others for her goals: her and Yukiteru's survival.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card021','card21')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card22" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a22.jpg" alt="Placeholder image">
@@ -625,11 +966,27 @@
                 Charlotte
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card22','card022')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card022" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a22.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Nao, as part of the student council, is known to be a hardworking, smart, and capable girl, she is also a narcissistic, self-righteous, short-tempered and liar girl; Nao dislikes when other people fail to acknowledge her efforts, she is bold, straightforward and also loves eating food, especially roasted corn and meat.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card022','card22')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card23" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a23.jpg" alt="Placeholder image">
@@ -652,11 +1009,27 @@
                 Date A Live
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card23','card023')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card023" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a23.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                When Tohka first appeared on Earth, unsealed, she had a cold, and emotionless demeanor. She was very wary of humans due to her being constantly attacked by the AST before Shido finally got the chance to talk to her. However, after Shido sealed her powers, she could finally develop and express feelings, as well as experience life on Earth.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card023','card23')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card24" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a24.jpg" alt="Placeholder image">
@@ -679,11 +1052,27 @@
                 Date A Live
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card24','card024')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card024" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a24.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Kurumi is a person whose character is difficult to read. She possesses a dislike of humanity that borders on mistrust, which is something that she shares with most of the other Spirits in her debut. She is a skilled actress as she is capable of putting on the facade of an innocent, curious young girl when she needs to.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card024','card24')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card25" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a25.jpg" alt="Placeholder image">
@@ -706,11 +1095,27 @@
                 Jahy-sama Won't Be Discouraged!
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card25','card025')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card025" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a25.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Jahy-sama is an existence to be feared and respected throughout the Demon Realm. Well, was. The (former) Demon Realm No. 2 is now busy with house chores and work...in the human realm! Her dinner is just beansprouts, and she can't afford anything except water at cafes, but she won't get discouraged! She thinks very highly of herself and won't admit when she needs help.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card025','card25')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card26" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a26.jpg" alt="Placeholder image">
@@ -733,11 +1138,27 @@
                 Miss Kobayashi's Dragon Maid
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card26','card026')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card026" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a26.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                As a Chaos Dragon, Tohru was raised to hate humans and is supposed to be a fierce and dangerous dragon with nothing other than destruction in mind, but this all changed when she met Kobayashi. She is now cheerful and kind to every human she meets, except for those who are a real or, as it is in most cases, imagined rival love interest to Kobayashi. She is also quickly influenced by what she sees on the television or internet.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card026','card26')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card27" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a27.jpg" alt="Placeholder image">
@@ -760,11 +1181,27 @@
                 Tokyo Ghoul
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card27','card027')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card027" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a27.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                As a young teen, Hinami was shy with a very gentle heart. She was also eager for knowledge and fond of reading in order to learn. She cared deeply for Touka and Kaneki, constantly expressing sadness and worry for the two's unhappiness. She also had a very pacifistic nature, having no intention to avenge her mother and father despite loving them so much. Hinami gradually coped with the deaths of her parents better, and obtained a very cheerful attitude.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card027','card27')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
         <div class="column is-one-quarter has-background-dark">
-          <div style="margin:5px;" class="card has-background-light">
+          <div id="card28" style="margin:5px;" class="card has-background-light">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="images/a28.jpg" alt="Placeholder image">
@@ -787,6 +1224,22 @@
                 Tokyo Ghoul
                 <br>
               </div>
+              <button class="button is-primary" onclick="add('card28','card028')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card028" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a28.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content">
+                Ihei came across as a normal young woman, though already a veteran investigator. She eagerly and politely greeted the Quinx, and was happy to finally have met people her own age. Though their superior, she wanted to be treated as their peer and was a bit uncomfortable with how young she was compared to everyone else she worked with. She had quite a tomboyish personality. But also gentle and humble, at the same time.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card028','card28')"><i class="fas fa-arrow-left"></i></button>
             </div>
           </div>
         </div>
@@ -815,5 +1268,6 @@
         </div>
       </div>
 
+      <script src="js/script.js"></script>
   </body>
 </html>

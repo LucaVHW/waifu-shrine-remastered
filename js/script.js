@@ -4,7 +4,7 @@ function add(x,b){
  var b = document.getElementById(b);
  b.classList.remove("is-hidden");
 }
-function remove(x){
+function remove(b,x){
   var b = document.getElementById(b);
   b.className += " is-hidden";
  var d = document.getElementById(x);

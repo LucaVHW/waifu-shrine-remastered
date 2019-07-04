@@ -1,0 +1,68 @@
+.colorf{
+  width: 100px;
+  height: 140px;
+  background-color: gold;
+  animation-delay: 0.2s;
+}
+.colors{
+  background-color: silver;
+  width: 100px;
+  height: 110px;
+}
+.colort{
+  background-color: #cc6633;
+  width: 100px;
+  height: 90px;
+  animation-delay: 0.4s;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  align-items: flex-end;
+}
+.panel img{
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #222;
+}
+.panel{
+  display: grid;
+  justify-content: center;
+  margin: 0px 0px 24px;
+}
+#first{
+  animation-delay: 0.7s;
+}
+#second{
+  animation-delay: 0.5s;
+}
+#third{
+  animation-delay: 0.9s;
+}
+.waifus{
+  background-color: whitesmoke;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#waifu{
+  border: 5px solid #CC3333;
+}
+#anime{
+  border: 5px solid steelblue;
+}
+#best{
+  border: 5px solid #00CC66;
+}
+#ok{
+  border: 5px solid #FF00FF;
+}

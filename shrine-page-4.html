@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Waifu shrine</title>
+    <link rel="icon" type="image/gif" href="images/shrine-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/scroll.css">
+  </head>
+  <style media="screen">
+    html {
+      background-color: rgb(54,54,54);
+    }
+  </style>
+  <body>
+
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="images/shrine.png" alt="">
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+
+          <a class="navbar-item" href="shrine.html">
+            Shrine
+          </a>
+
+          <a class="navbar-item" href="ranking.html">
+            Ranking
+          </a>
+        </div>
+
+      </div>
+    </nav>
+      <div class="columns is-multiline has-background-dark">
+        <div class="column is-one-quarter has-background-dark">
+          <div id="card85" style="margin:5px;" class="card has-background-light">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a85.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img class="is-rounded" src="images/85.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-5">Hiyori Iki</p>
+                </div>
+              </div>
+
+              <div class="content">
+
+                Noragami
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card85','card085')"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div id="card085" style="margin:5px;" class="card has-background-light is-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/a85.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+
+              <div class="content scroll">
+                Hiyori is a very pure, kind-hearted, and brave girl who will go out of her way to help someone in danger, even strangers, regardless of the severe consequences, including suffering from blight. She has a strong moral compass and is not above calling people out if she feels their actions are wrong. This was seen when she confronted Yukine about stealing.
+                <br>
+              </div>
+              <button class="button is-primary" onclick="add('card085','card85')"><i class="fas fa-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-quarter has-background-dark">
+
+        </div>
+        <div class="column is-one-quarter has-background-dark">
+
+        </div>
+        <div class="column is-one-quarter has-background-dark">
+
+        </div>
+        <div class="column is-5 has-background-dark">
+
+        </div>
+        <div style="display:grid;justify-content:center;" class="column is-2 has-background-dark">
+          <br>
+          <nav class="pagination" role="navigation" aria-label="pagination">
+            <ul class="pagination-list">
+              <li>
+                <a class="pagination-link has-text-light" aria-label="Page 1" aria-current="page" href="shrine.html">1</a>
+              </li>
+              <li>
+                <a class="pagination-link has-text-light" aria-label="Goto page 2" href="shrine-page-2.html">2</a>
+              </li>
+              <li>
+                <a class="pagination-link has-text-light" aria-label="Goto page 3" href="shrine-page-3.html">3</a>
+              </li>
+              <li>
+                <a class="pagination-link is-current" aria-label="Goto page 4">4</a>
+              </li>
+            </ul>
+          </nav>
+          <br>
+        </div>
+        <div class="column is-5 has-background-dark">
+
+        </div>
+      </div>
+
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>

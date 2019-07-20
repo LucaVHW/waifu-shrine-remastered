@@ -8,3 +8,9 @@ You can find the previous version [here](https://github.com/LucaVHW/waifu-shrine
 Yully (Servamp)
 
 Yuzuriha Ogawa
+
+fumino furuhashi
+
+gripen (girly air force)
+
+rui tachibana

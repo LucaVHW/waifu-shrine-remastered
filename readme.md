@@ -10,3 +10,5 @@ Nezuko Kamado
 Trish Una
 
 Yukako Yamagishi
+
+Tamaki Kotatsu

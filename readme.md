@@ -8,3 +8,5 @@ You can find the previous version [here](https://github.com/LucaVHW/waifu-shrine
 Jolyne Cujoh
 
 Endou Saya
+
+Kohaku (Dr. Stone)

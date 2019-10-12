@@ -1,8 +1,7 @@
 # Waifu Shrine
 
 Welcome to my waifu shrine.
-
-You can find the previous version [here](https://github.com/LucaVHW/waifu-shrine)
+This is a small project for fun.
 
 ## Waifus to be added:
 

@@ -10,3 +10,7 @@ Jolyne Cujoh
 Endou Saya
 
 Kohaku (Dr. Stone)
+
+Kallen
+
+C.C.

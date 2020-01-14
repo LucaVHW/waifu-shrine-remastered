@@ -9,3 +9,5 @@ I used Bulma as the framework for this project.
 ## Waifus to be added:
 
 Shinobu Kochou
+
+Adenela
